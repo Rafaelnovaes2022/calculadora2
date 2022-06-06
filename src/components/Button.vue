@@ -1,5 +1,5 @@
 <template>
-  <Button class="button" 
+  <Button class="Button" 
     @click="$emit('onClick',label)"
     :class="{ double, triple, operation }">
     {{ label }}
@@ -7,6 +7,7 @@
 </template>
 
 <script>
+
 export default {
   props: {
     label: {},
@@ -23,15 +24,19 @@ export default {
   
 }
 
-.button.double {
+.Button.double {
   grid-column: span 2;
 }
-.button.triple {
+.Button.triple {
   grid-column: span 3;
   
 }
-.button.operation {
+.Button.operation {
   background-color: #f0f0f0;
+  
+}
+
+.panel {
   
 }
 </style>
