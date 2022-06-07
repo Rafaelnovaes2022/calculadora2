@@ -6,26 +6,26 @@
 </template>
 
 <script>
-import Calculator from "./main/Calculator"
+import Calculator from "./main/Calculator";
 
 export default {
-  components: { Calculator }
+  components: { Calculator },
 };
 </script>
 
 <style>
-@font-face{
+@font-face {
   font-family: "RobotoMono";
   src: url("./fonts/RobotoMono-Thin.ttf");
 }
-*{
-  font-family: "RobotoMono",monospace;
+* {
+  font-family: "RobotoMono", monospace;
 }
-body{
-  margin:0;
+body {
+  margin: 0;
 }
 #app {
-  display:flex;
+  display: flex;
   flex-direction: column;
   height: 100vh;
   justify-content: center;
@@ -33,7 +33,6 @@ body{
   text-align: center;
 
   color: #fff;
-  background: linear-gradient(to right, rgba(83,105,118), rgb(41,46,73));
-
+  background: linear-gradient(to right, rgba(83, 105, 118), rgb(41, 46, 73));
 }
 </style>
